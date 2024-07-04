@@ -1,4 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Android Apps Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#apps">My Apps</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am an Android developer with a passion for creating innovative and user-friendly mobile applications.</p>
+    </section>
+    
+    <section id="apps">
+        <h2>My Apps</h2>
+        <div class="app">
+            <h3>App 1</h3>
+            <img src="app1-screenshot.png" alt="App 1 Screenshot">
+            <p>Description of App 1.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.example.app1">Download</a>
+        </div>
+        <div class="app">
+            <h3>App 2</h3>
+            <img src="app2-screenshot.png" alt="App 2 Screenshot">
+            <p>Description of App 2.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.example.app2">Download</a>
+        </div>
+        <!-- Add more apps as needed -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-{
-  "Status": "Yogidev"
-}
+    <footer>
+        <p>&copy; 2024 My Android Portfolio. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
